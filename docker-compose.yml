@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    command: bundle exec ruby test_micro_batching_library.rb

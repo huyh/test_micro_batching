@@ -1,0 +1,21 @@
+GIT
+  remote: https://github.com/huyh/micro_batching.git
+  revision: 5e469a3308d939916dc98a9de41cf62bea82ed1c
+  specs:
+    micro_batching (0.1.0)
+      concurrent-ruby (~> 1.3.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.3.4)
+
+PLATFORMS
+  aarch64-linux
+  arm64-darwin-23
+
+DEPENDENCIES
+  micro_batching!
+
+BUNDLED WITH
+   2.5.16
